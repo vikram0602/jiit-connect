@@ -1,0 +1,42 @@
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#flip1").click(function(){
+    $("#panel1").slideToggle("slow");
+	$('img.expand1').toggleClass('collapse1');
+  });
+});
+$(document).ready(function(){
+  $("#flip2").click(function(){
+    $("#panel2").slideToggle("slow");
+	$('img.expand2').toggleClass('collapse2');
+  });
+});
+$(document).ready(function(){
+  $("#flip3").click(function(){
+    $("#panel3").slideToggle("slow");
+	$('img.expand3').toggleClass('collapse3');
+  });
+});
+$(document).ready(function(){
+  $("#flip4").click(function(){
+    $("#panel4").slideToggle("slow");
+	$('img.expand4').toggleClass('collapse4');
+  });
+});
+$(document).ready(function(){
+  $("#flip5").click(function(){
+    $("#panel5").slideToggle("slow");
+	$('img.expand5').toggleClass('collapse5');
+  });
+});
+$(document).ready(function(){
+  $("#flip6").click(function(){
+    $("#panel6").slideToggle("slow");
+	$('img.expand6').toggleClass('collapse6');
+  });
+});
+// JavaScript Document

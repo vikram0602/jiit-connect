@@ -1,0 +1,38 @@
+<?php
+ include_once("/config.php");
+  session_start();
+if(!isset($_SESSION['CurrentUser']))
+	 header("location:/minor/login/logout.php");
+ ?>
+<!-- Header-->
+    <header>
+    	<!-- Top Bar -->
+    	<div class="top">
+        	<div class="container">
+            	<a class="logo" href="/minor/index.php"><img src="/minor/img/logo.png" alt="logo"></a>
+            	
+				<?php
+				 if(isset($_SESSION['CurrentUser']))
+				 {
+					 
+							echo "<ul class='btns-top'><li  class='btn btn-large btn-inverse' id='flip'>My Acount</li></ul>";
+							echo "</div></div></header><div id='panel' >";
+							echo $_SESSION['CurrentUserName']."<br><br>";
+							echo "<a href='edit-profile.php'>Edit Profile</a><br><br>";
+							echo "<a href='edit-profile.php'>Account Settings</a><br><br>";
+							echo "<a href='/minor/login/logout.php'>Logout</a><br><br>";
+		
+					 
+				 
+				  			
+				}
+					
+					
+					
+					 
+				 ?>
+		</div>	
+		</div>
+		</div>
+		
+		
